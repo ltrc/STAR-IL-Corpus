@@ -1,6 +1,6 @@
 # STAR-IL-Corpus: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages
 
-Welcome to the official repository for the **STAR-IL :Style-Aware Translation of Reviews in Indian Languages** dataset.
+Welcome to the official repository for the **STAR-IL: Style-Aware Machine Translation of Product Reviews in Indian Languages** dataset.
 
 ## Overview
 
