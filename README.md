@@ -49,9 +49,25 @@ df_marathi = pd.read_csv("translated_data/benchmark/Marathi.csv")
 print(df_marathi[['src', 'tgt', 'domain']].head())
 ```
 
-<!-- ## Citation
+## Citation
 
-If you use the STAR-IL dataset or benchmark in your research, please cite our paper: -->
+If you use the **STAR-IL dataset**, please cite our paper:
+
+```bibtex
+@inproceedings{shetye-etal-2026-star,
+  title     = {STAR-IL: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages},
+  author    = {Shetye, Ketaki and Sharma, Dipti Misra and Krishnamurthy, Parameswari},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month     = may,
+  year      = {2026},
+  pages     = {8780--8793},
+  address   = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  doi       = {10.63317/4oq85vioi2tu},
+  abstract  = {Product reviews on e-commerce platforms are a critical form of user-generated content influencing consumer decisions. However, these reviews are predominantly in English, creating accessibility barriers for non-fluent users. Existing translation models often fail to preserve domain-specific features and colloquial style, resulting in unnatural outputs. To address this, we introduce STAR-IL, a human-annotated multilingual parallel corpus for style-aware translation of product reviews. Experiments show that models fine-tuned on STAR-IL achieve an average improvement of 5.77 BLEU and 3.78 COMET points over baselines across all languages. The dataset is publicly available at https://github.com/ltrc/STAR-IL-Corpus.}
+}
+
+
 
 <!-- ## License -->
 
