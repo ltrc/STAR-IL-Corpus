@@ -68,7 +68,3 @@ If you use the **STAR-IL dataset**, please cite our paper:
 }
 
 
-
-<!-- ## License -->
-
-
